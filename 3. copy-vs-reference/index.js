@@ -4,7 +4,7 @@ var x = 10;
 var y = "abc";
 var a = x;
 var b = y;
-
+//x=10, y="abc", a=10, b="abc"
 // Value of x, y, a, b
 var x = 10;
 var y = "abc";
@@ -12,27 +12,28 @@ var a = x;
 var b = y;
 a = 5;
 b = "def";
-
+// x=10, y="abc", a=5, b="def"
 // Value of arr & arrCopy
 var arr = [1];
 var arrCopy = arr;
 arr.push(2);
-
+//arr=[1,2], arrCopy=[1] 
 // Value of obj
 var obj = { name: "ryan" };
 obj = { surname: "florance" };
-
+// surname: "florance"
 // What's the output.
 var arr = ["Hi"];
 var arr2 = arr;
 console.log(arr === arr2);
-
+//true
 // What's the output.
 var arr1 = ["Hi!"];
 var arr2 = ["Hi!"];
 console.log(arr1 === arr2);
 console.log(arr == arr2);
-
+//false
+//false
 //What's the output
 console.log([10] === [10]);
 
