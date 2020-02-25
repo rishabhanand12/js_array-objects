@@ -22,3 +22,5 @@ var gunter = {
    for(i in gunter) {
        console.log(gunter.outfit[i]);
    }
+
+   
