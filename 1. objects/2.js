@@ -21,3 +21,14 @@ var city = prompt("Enter the city name you visited las time.");
 // 9. Uisng console.log log the value of the key defined above.
 
 // 10. Can you define a key of `let or var` in any object? Reason.
+
+var user = {
+    "user name": "Black Panther",
+}
+console.log(user["user name"]);
+user[batch] = 10;
+alert(user[batch]);
+user[42] = "The answer to the meaning of life 🧸";
+console.log(user[42]);
+user[city] = true;
+console.log(user[city]);
